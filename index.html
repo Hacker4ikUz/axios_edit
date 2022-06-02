@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form name="add_item">
+        <div>
+            <p>Имя</p>
+            <input type="text" name="name" placeholder="Имя">
+        </div>
+        <div>
+            <p>Возраст</p>
+            <input type="text" name="age" placeholder="Ваш возраст">
+        </div>
+        <button>Добавить</button>
+    </form>
+
+    <div class="container">
+        <div>
+            <h2>Люди До 25</h2>
+            <div class="left"></div>
+        </div>
+        <hr>
+        <div>
+            <h2>Люди До 50</h2>
+            <div class="center"></div>
+        </div>
+        <hr>
+        <div>
+            <h2>Остальные</h2>
+            <div class="right"></div>
+        </div>
+    </div>
+
+    <script type="module" src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
